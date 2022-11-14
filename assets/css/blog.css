@@ -1,0 +1,119 @@
+.content{
+padding: 20px;
+}
+
+.content h1{
+    margin: 20px 0;
+}
+
+.blog-content{
+    display: flex;
+   margin-bottom: 30px;
+}
+
+.img-content{
+    width: 20%;
+}
+
+.img-content img{
+    width: 100%;
+}
+.content-infor{
+    font-size: 16px;
+    margin: 0 20px;
+    flex: 1;
+}
+
+.title-content{
+    color: black;
+    font-weight: 600;
+}
+
+.title-content a{
+    text-decoration: none;
+    color: #000;;
+}
+
+.title-content:hover a{
+    color: rgb(214, 13, 40);
+    cursor: pointer;
+}
+
+.time-content{
+    opacity: 0.4;
+    margin: 20px 0;
+}
+
+.description-content{
+    opacity: 0.6;
+    text-transform: lowercase;
+}
+.container-post{
+    width: 80%;
+    font-size: 1.1rem;
+}
+.container-post p{
+ 
+    color: rgb(63, 61, 61);
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.img-topic{
+    width: 80%;
+}
+
+.img-topic img{
+    width: 100%;
+}
+
+.title-post{
+    font-weight: 500;
+}
+
+.infor-user-write{
+    display: flex;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.name-post{
+    margin: 0 20px;
+}
+
+input[name='name']{
+    width: 46%;
+    padding: 20px;
+    margin: 10px 10px 10px 0;
+    outline-color: #fff;
+    border: none;
+    background-color: #ddd;
+}
+input[name='email']{
+    width: 46%;
+    padding: 20px;
+    outline-color: #fff;
+    border: none;
+    background-color: #ddd;
+}
+input[name='textarea']{
+    width: 93.5%;
+    padding: 20px;
+    outline-color: #fff;
+    border: none;
+    height: 100px;
+    background-color: #ddd;
+}
+
+button.submit{
+    background-color: red;
+    color: #fff;
+    border: none;
+padding: 20px;
+font-size: 1.2rem;
+margin-top: 10px;
+}
+button.submit:hover{
+    background-color: rgb(11, 133, 133);
+    cursor: pointer;
+}

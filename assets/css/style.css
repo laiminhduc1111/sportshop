@@ -11,6 +11,7 @@
 }
 body{
   font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 .pd-10{
   padding: 0 10px;
@@ -29,11 +30,11 @@ body{
 }
 
 .top-header{
-background-color: #ccc;
+background-color: #eee;
 display: flex;
 justify-content: space-between;
 padding: 5px 60px;
-font-size: 1rem;
+font-size: 0.9rem;
 }
 
 .bottom-header{
@@ -41,7 +42,7 @@ font-size: 1rem;
   align-items: center;
   justify-content: space-between;
   padding: 0px 60px;
-  background-color: #ddd ;
+  background-color: #fff;
   
 }
 
@@ -80,6 +81,7 @@ margin: 0 20px;
   padding: 10px 5px;
   border: none;
   outline-color: rgb(221, 137, 26);
+  background-color: #eee;
 }
 .header-list{
   font-size: 1.1rem;
@@ -101,7 +103,10 @@ margin: 0 20px;
   display: block;
   cursor: pointer;
 }
-
+.header-item a{
+  text-decoration: none;
+  color: inherit;
+}
 .icon-user,.icon-cart{
 font-size: 1.3rem;
 }
@@ -306,6 +311,7 @@ font-size: 1.3rem;
   font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
+  color: #080808;
 }
 
 .footer-title{
